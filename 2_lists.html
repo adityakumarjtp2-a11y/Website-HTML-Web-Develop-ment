@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables - HTML</title>
+    <style>
+        
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #fff5f5;
+        margin: 30px;
+    }
+
+    h1 {
+        text-align: center;
+        color: #e23744;
+    }
+
+    table {
+        width: 80%;
+        margin: 30px auto;
+        border-collapse: collapse;
+        background-color: white;
+        border: 2px solid #e23744;
+    }
+
+    th {
+        background-color: #e23744;
+        color: white;
+        padding: 15px;
+        font-size: 18px;
+    }
+
+    td {
+        padding: 12px;
+        text-align: center;
+        border: 1px solid #ddd;
+    }
+
+    tr:nth-child(even) {
+        background-color: #ffe5e5;
+    }
+
+    tr:hover {
+        background-color: #ffcccc;
+    }
+</style>
+    </style>
+</head>
+<body>
+    <h1>Tables in HTML</h1>
+    <table>
+        <!-- Head of the table -->
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Role</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+
+        <!-- Body of the table -->
+        <tbody>
+            <tr>
+                <td>Aditya</td>
+                <td>Software Developer</td>
+                <td>$100000</td>
+            </tr>
+            <tr>
+                <td>Ayush</td>
+                <td>Software Developer</td>
+                <td>$100000</td>
+            </tr>
+            <tr>
+               <td>Aman</td>
+                <td>Software Developer</td>
+                <td>$100000</td> 
+            </tr>
+            <tr>
+              <td>Thanks</td>
+                <td colspan="2">You</td>
+                
+            </tr> 
+
+        </tbody>
+    </table>
+</body>
+
+</html>
